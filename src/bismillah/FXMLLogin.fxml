@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="317.0" prefWidth="544.0" style="-fx-background-color: #B0C4DE;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bismillah.FXMLLoginController">
+   <children>
+      <Label layoutX="124.0" layoutY="85.0" text="username" textFill="#363636">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="125.0" layoutY="164.0" text="password">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="username" layoutX="71.0" layoutY="125.0" prefHeight="25.0" prefWidth="185.0" style="-fx-background-color: #D2B48C;" />
+      <Label layoutX="78.0" layoutY="14.0" text="LOGIN" textFill="#18215b">
+         <font>
+            <Font name="BadlyStamped" size="48.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnsignin" layoutX="100.0" layoutY="252.0" mnemonicParsing="false" onAction="#signin" style="-fx-background-color: #008B8B;" text="sign in" />
+      <Button fx:id="btnsignup" layoutX="175.0" layoutY="252.0" mnemonicParsing="false" onAction="#signup" style="-fx-background-color: #008B8B;" text="sign up" />
+      <PasswordField fx:id="password" layoutX="71.0" layoutY="200.0" prefHeight="25.0" prefWidth="185.0" style="-fx-background-color: #D2B48C;" />
+      <Separator layoutX="317.0" layoutY="4.0" orientation="VERTICAL" prefHeight="309.0" prefWidth="0.0" style="-fx-background-color: black;" />
+      <ImageView fitHeight="82.0" fitWidth="140.0" layoutX="334.0" layoutY="30.0">
+         <image>
+            <Image url="@../../../../../Pictures/BELAJAR/cafe_design-2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="82.0" fitWidth="140.0" layoutX="334.0" layoutY="211.0">
+         <image>
+            <Image url="@../../../../../Pictures/BELAJAR/Desain-Interior-Restoran-Bergaya-Old-School-01.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="133.0" layoutX="408.0" layoutY="116.0">
+         <image>
+            <Image url="@../../../../../Pictures/BELAJAR/Cover-Photo-1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="44.0" fitWidth="42.0" layoutX="201.0" layoutY="156.0">
+         <image>
+            <Image url="@../../../../../Pictures/BELAJAR/secrecy-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="44.0" fitWidth="42.0" layoutX="197.0" layoutY="77.0">
+         <image>
+            <Image url="@../../../../../Pictures/BELAJAR/computer-user-icon-in-svg_85349.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
